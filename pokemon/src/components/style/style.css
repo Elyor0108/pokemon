@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0;
+    background-color: #8278a2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*  */
+/*  */
+/* POKEMON ITEM */
+/*  */
+/*  */
+body{
+display: block;
+}
+.poke_page{
+    margin-top: 30px;
+}
+.name{
+    font-size: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy,sans-serif;
+    color: gold;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-shadow: -4px -4px 0px gold;
+    background: repeating-linear-gradient(45deg, #0086fc, #0072f5 1px, white 2px, rgb(217, 171, 171) 3px);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.search{
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 80px;
+    margin-left: 150px;
+    margin-top: 15px;
+    color: #0072f5;
+    font-size: 30px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-shadow: -2px -2px 0px gold;
+    background: repeating-linear-gradient(40deg, #0086fc, #0072f5 1px, white 2px, rgb(217, 171, 171) 3px);
+    -webkit-background-clip: text;
+}
+
+.vertical{
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    border: 2px solid;
+    border-color: rgb(222, 158, 158);
+    margin: 60px;
+}
+.all_block{
+    display: inline-block;
+    text-align: center;    
+    margin: 5px;
+}
+/*  */
+/*  */
+    /* POKEMON PAGE */
+/*  */
+/*  */
+.pokemon_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon_name{
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    justify-content: center;
+    color: rgb(85, 82, 77);
+    margin-bottom: 30px;
+}
+.id{
+    display: flex;
+    font-size: 23px;
+    margin-left: 20px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.ability{
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    margin: 5px ;
+    border: 2px solid;
+    border-color: rgb(222, 158, 158);
+}
+.poke_info{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 2rem; 
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    border-radius: 10px;
+    width: 200px;
+    margin: 5px ;
+    border: 2px solid;
+    border-color: rgb(222, 158, 158);
+}
+.character{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/*  */
+/*  */
+/* SEARCH */
+/*  */
+/*  */
+
+.back{  
+    width: 700px;
+}
+.input{
+    display: block;
+    font-size: 27px;
+    width: 200px;
+    height: 35px;
+    border-radius:5px;
+    color: goldenrod;
+    align-items: center;
+    border-color: blue;
+}
+.bton{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
+    height: 30px;
+    font-family: fantasy;
+    font-size: 15px;
+    border-color: #8278a2;
+    color: blue;
+    border-radius: 5px;
+    color: #0072f5;
+    text-transform: uppercase;
+    text-shadow: -2px -2px 0px gold;
+    background: repeating-linear-gradient(20deg, #0086fc, #0072f5 1px, white 1px, rgb(217, 171, 171) 2px);
+    -webkit-background-clip: text;
+}
+.bton:hover{
+    color: bisque;
+    border-color: rgb(0, 250, 200);
+}
