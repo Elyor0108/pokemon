@@ -35,7 +35,7 @@ display: block;
     justify-content: center;
     align-items: center;
     width: fit-content;
-    height: 80px;
+    height: 150px;
     margin-left: 150px;
     margin-top: 15px;
     color: #0072f5;
@@ -130,6 +130,7 @@ display: block;
 
 .back{  
     width: 700px;
+    height: 400px;
 }
 .input{
     display: block;
